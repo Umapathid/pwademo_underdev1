@@ -2,10 +2,13 @@
     "name": "PWA github page practise1",
     "shortname": "PWADemo1",
     "display": "standalone",
-    "start": "/index.html",
+    "start": "index.html",
     "scope": ".",
     "background_color": "#fff",
-    "theme_color": "blue",
+    "theme_color": "#3F51B5",
+    "description": "Keep running your PWA apps",
+    "dir": "ltr",
+    "lang": "en-US",
     "icons": [
     {
       "src": "images/icons/icon-72x72.png",
@@ -47,5 +50,12 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "related_applications": [
+      {
+          "platform": "play",
+          "url": "https://play.google.com/store/apps/details?id=com.example.app1",
+          "id": "com.example.app1"
+      }
   ]
 }
