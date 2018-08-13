@@ -1,0 +1,16 @@
+{
+    "name": "PWA github page practise1",
+    "shortname": "PWADemo1",
+    "display": "standalone",
+    "start": "/index.html",
+    "scope": ".",
+    "background_color": "#fff",
+    "theme_color": "blue",
+    "icon": [
+        {
+            "src": "/images/logo.png",
+            "type": "image/png",
+            "size": "48X48"
+        }
+    ]
+}
