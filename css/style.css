@@ -96,5 +96,11 @@ header .logo a > img {
   display: block;
   line-height: 16px;
 }
+.top_wrapper {
+  background: #c7e2f7;
+  border: 1px solid #a2c3dc;
+  margin: 25px 0px;
+  padding: 30px;
+}
 
 /*--header styles--*/
