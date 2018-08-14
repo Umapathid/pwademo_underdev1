@@ -67,14 +67,14 @@ button:focus {
 /*--common styles--*/
 /*--header styles--*/
 header {
-  background: #2a2a30;
+  background: #0e3655;
 }
 .header_wrapper {
   padding: 10px 0px;
 }
 header .logo a {
   display: block;
-  color: #ececec;
+  color: #cdcdcd;
   font-size: 18px;
   font-weight: bold;
 }
