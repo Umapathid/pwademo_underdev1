@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif;
-  line-height: 24px;
+  line-height: 21px;
  }
 
 ul {
@@ -74,12 +74,26 @@ header {
 }
 header .logo a {
   display: block;
-  color: #cdcdcd;
+  color: #e4e3e3;
   font-size: 18px;
   font-weight: bold;
+  line-height: 28px;
 }
 header .logo a > img {
   width: auto;
   max-height: 50px;
 }
+.header_features ul li a {
+  display: block;
+  color: #fff;
+  font-size: 21px;
+  line-height: 21px;
+  border: 1px solid #4590ca;
+  padding: 5px 7px;
+  background: #2d6692;
+}
+.header_features ul li a > span {
+  display: block;
+}
+
 /*--header styles--*/
