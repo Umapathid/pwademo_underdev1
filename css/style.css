@@ -94,6 +94,7 @@ header .logo a > img {
 }
 .header_features ul li a > span {
   display: block;
+  line-height: 16px;
 }
 
 /*--header styles--*/
