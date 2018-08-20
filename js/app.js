@@ -1,4 +1,5 @@
 // application of PWA //
-
-navigator.serviceWorker.register("./sw.js");
+if('serviceWorker' in nagivator) {
+    navigator.serviceWorker.register("./sw.js");
+}
 
