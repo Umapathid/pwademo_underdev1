@@ -1,9 +1,9 @@
 // application of PWA //
 if('serviceWorker' in navigator) {
     navigator.serviceWorker
-        .register("/sw.js")
+        .register('./sw.js')
         .then( function() {
-            console.log("Service worker register");
+            console.log('Service worker register');
         });
 }
 
