@@ -10,5 +10,5 @@ self.addEventListener("activate", function(event) {
 
 self.addEventListener("fetch", function(event) {
     console.log("[service worker] fetching on something..", event);
-    event.respondWidth(fetch(event.request));
+    event.respondWith(fetch(event.request));
 });
