@@ -1,0 +1,1 @@
+var installButton = document.querySelector("#add_installBtn");

@@ -1,4 +1,5 @@
 // application of PWA //
+var defferedPrompt;
 if('serviceWorker' in navigator) {
     navigator.serviceWorker
         .register('./sw.js')
@@ -7,3 +8,9 @@ if('serviceWorker' in navigator) {
         });
 }
 
+window.addEventListener("beforeinstallprompt", function(event) {
+    console.log("Beforeinstallprompt fired");
+    event.preventDefault();
+    defferedPrompt = event;
+    return false;
+});
