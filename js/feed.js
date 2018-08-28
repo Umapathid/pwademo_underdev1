@@ -5,10 +5,11 @@ installButton.addEventListener("click", function(){
     openCreateModal();
 });
 
-function openCreateModal(event) {
+function openCreateModal() {
     console.log('add button activated');
+    console.log(defferedPrompt);
     
-        event.prompt();
+        defferedPrompt.prompt();
 
         defferedPrompt.userChoice.then(function(choiceResult) {
             console.log("choice is: " + choiceResult);
