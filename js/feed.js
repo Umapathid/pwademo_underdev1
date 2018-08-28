@@ -7,6 +7,7 @@ installButton.addEventListener("click", function(event){
 });
 
 function openCreateModal() {
+    console.log('add button activated');
     if(defferedPrompt) {
         defferedPrompt.prompt();
 
