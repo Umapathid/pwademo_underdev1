@@ -83,7 +83,7 @@ header .logo a > img {
   width: auto;
   max-height: 50px;
 }
-.header_features ul li a {
+.header_features ul li button {
   display: block;
   color: #fff;
   font-size: 21px;
@@ -92,7 +92,7 @@ header .logo a > img {
   padding: 5px 7px;
   background: #2d6692;
 }
-.header_features ul li a > span {
+.header_features ul li button > span {
   display: block;
   line-height: 16px;
 }

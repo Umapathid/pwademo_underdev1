@@ -1,7 +1,6 @@
 var installButton = document.querySelector("#add_installBtn");
 
-installButton.addEventListener("click", function(event){
-    event.preventDefault();
+installButton.addEventListener("click", function(){
     console.log("BeforeInstall prompt activated");
     openCreateModal();
 });
