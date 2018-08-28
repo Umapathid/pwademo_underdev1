@@ -7,18 +7,19 @@ installButton.addEventListener("click", function(){
 
 function openCreateModal() {
     console.log('add button activated');
-    if(defferedPrompt) {
+    
         defferedPrompt.prompt();
 
         defferedPrompt.userChoice.then(function(choiceResult) {
             console.log("choice is: " + choiceResult);
-            if(choiceResult.outcome == 'dismissed') {
+            if(choiceResult.outcome === 'dismissed') {
                 console.log('User cancelled the installed');
             }
             else {
                 console.log('User add to Home screen');
             }
+            defferedPrompt = null;
         });
-        defferedPrompt = null;
-    }
+        
+    
 }

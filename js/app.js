@@ -12,5 +12,4 @@ window.addEventListener("beforeinstallprompt", function(event) {
     console.log("Beforeinstallprompt fired");
     event.preventDefault();
     defferedPrompt = event;
-    return false;
 });
